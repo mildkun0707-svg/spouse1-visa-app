@@ -1,0 +1,18 @@
+# Streamlit の秘密情報（絶対にGitHubにアップしない！）
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# 出力ファイル（クライアントの個人情報を含むため除外）
+*.json
+!master_schema.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
